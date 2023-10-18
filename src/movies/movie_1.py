@@ -4,7 +4,6 @@ from movies.movie import Movie
 
 
 class MovieLister:
-    _finder: Any
 
     def movies_directed_by(self, arg: str) -> list[Movie]:
         allMovies: list[Movie] = self._finder.findAll()

@@ -26,7 +26,7 @@ class ColonDelimitedMovieFinder:
 class MovieLister:
     _finder: MovieFinder
 
-    def __init__(self, finder: MovieFinder): # <---------
+    def __init__(self, finder: MovieFinder):
         self._finder = finder
 
     def movies_directed_by(self, arg: str) -> list[Movie]:

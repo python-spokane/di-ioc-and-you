@@ -75,6 +75,50 @@ An IoC **technique** for separating **construction** from **use**.
 
 We pass a class its dependencies instead of creating them within the class.
 
+$10 word for a 5𝇍 concept
+
+---
+
+<!-- _class:
+- lead
+-->
+
+<style scoped>
+    section {
+        background: white;
+    }
+</style>
+
+![width:800px](resources/naive.gif)
+
+---
+
+<!-- _class:
+- lead
+-->
+
+<style scoped>
+    section {
+        background: white;
+    }
+</style>
+
+![width:800px](resources/locator.gif)
+
+---
+
+<!-- _class:
+- lead
+-->
+
+<style scoped>
+    section {
+        background: white;
+    }
+</style>
+
+![width:800px](resources/injector.gif)
+
 ---
 
 # What are some benefits of DI?
